@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="navbar">
 			<nav>
-				<div class="nav-wrapper">
+				<div class="nav-wrapper grey darken-4">
 					<a href="#!" class="brand-logo">Logo</a>
 					<ul class="right hide-on-med-and-down">
 					<li><a href="sass.html">Sass</a></li>
@@ -80,43 +80,23 @@
 
 		<?php } ?>
 
-		<section>
-			<div id="c">  <h2>Les objectifs</h2>
-			  <br>
-			  <br>
+
+		<div class="row center-align" style="margin-left: auto; margin-right: auto; width: 100%;">
+		 <div class="card-panel grey lighten-3 col s6 offset-s3">
+			<h3>Les objectifs</h3>
+		 </div>
+		</div>
+		<div class="row center-align">
+		 <div>
 			  Pourquoi cherchez-vous une salle de sport ? <br>
 			  Que souhaitez-vous améliorer en pratiquant une activité sportive régulièrement ? <br>
 			  Les coachs de votre club O’Top Chambéry sont là pour vous faire atteindre votre but. <br>
 			  Dites-nous quel est votre objectif, nous élaborons votre programme d’entrainement ! <br>
 			  EN SAVOIR +
-			 </div>
-
-
-			 <div id="e">  <h2>Les objectifs</h2>
-			   <br>
-			   <br>
-			   Pourquoi cherchez-vous une salle de sport ? <br>
-			   Que souhaitez-vous améliorer en pratiquant une activité sportive régulièrement ? <br>
-			   Les coachs de votre club O’Top Chambéry sont là pour vous faire atteindre votre but. <br>
-			   Dites-nous quel est votre objectif, nous élaborons votre programme d’entrainement ! <br>
-			   EN SAVOIR +
-			  </div>
-
-			  <div id="f">  <h2>Les objectifs</h2>
-				<br>
-				<br>
-				Pourquoi cherchez-vous une salle de sport ? <br>
-				Que souhaitez-vous améliorer en pratiquant une activité sportive régulièrement ? <br>
-				Les coachs de votre club O’Top Chambéry sont là pour vous faire atteindre votre but. <br>
-				Dites-nous quel est votre objectif, nous élaborons votre programme d’entrainement ! <br>
-				EN SAVOIR +
-			   </div>
-		</section>
-
-
+		 </div>
+		</div>
 
 		<footer class="page-footer">
-		  <div class="container">
 			<div class="row">
 			  <div class="col l6 s12">
 				<h5 class="white-text">Contact</h5>
@@ -132,7 +112,6 @@
 				</ul>
 			  </div>
 			</div>
-		  </div>
 		</footer>
 	</div>
 </body>
