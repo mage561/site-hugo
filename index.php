@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="navbar">
 			<nav>
-				<div class="nav-wrapper">
+				<div class="nav-wrapper grey darken-4">
 					<a href="#!" class="brand-logo">Logo</a>
 					<ul class="right hide-on-med-and-down">
 					<li><a href="pages/connection.php">Se connecter </a></li>
@@ -104,7 +104,7 @@
 
 
 
-		<footer class="page-footer">
+		<footer class="page-footer grey darken-4">
 		  <div class="container">
 			<div class="row">
 			  <div class="col l6 s12">
