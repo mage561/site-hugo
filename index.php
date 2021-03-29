@@ -85,7 +85,8 @@
 		 </div>
 		</div>
 
-		<footer class="page-footer">
+		<footer class="page-footer grey darken-4">
+		  <div class="container">
 			<div class="row">
 			  <div class="col l6 s12">
 				<h5 class="white-text">Contact</h5>
