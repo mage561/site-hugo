@@ -24,8 +24,8 @@
 				<div class="nav-wrapper grey darken-4">
 					<a href="#!" class="brand-logo">Logo</a>
 					<ul class="right hide-on-med-and-down">
-					<li><a href="sass.html">Sass</a></li>
-					<li><a href="badges.html">Components</a></li>
+					<li><a href="pages/connection.php">Se connecter </a></li>
+					<li><a href="traitement/traitementDeconnection.php">Se déconnecter</a></li>
 					</ul>
 			</div>
 			</nav>
@@ -34,11 +34,6 @@
 		<?php
 		  if (!empty($_SESSION['id'])) { 
 		?>
-		<section>
-			<div id="d">
-			   <h1><a href="traitement/traitementDeconnection.php">Se déconnecter</a></h1>
-			</div>
-		</section>
 		
 
 		<?php
@@ -71,12 +66,6 @@
 
 		  else { // sinon l'utilisateur n'est pas connecté
 		?>
-
-		<section>
-			<div id="d">
-			   <h1> <a href="pages/connection.php">Se connecter </a>  </h1> <!-- on affiche le boutton pour se connecter -->
-			</div>
-		</section>
 
 		<?php } ?>
 
