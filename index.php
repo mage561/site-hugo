@@ -107,16 +107,16 @@
 	  <div class="container">
 		<div class="row">
 		  <div class="col l6 s12">
-			<h5 class="white-text">Footer Content</h5>
-			<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+			<h5 class="white-text">Contact</h5>
+			<p class="grey-text text-lighten-4">Si vous voulez nous contacter veuillez vous addresser au contact suivant</p>
 		  </div>
 		  <div class="col l4 offset-l2 s12">
-			<h5 class="white-text">Links</h5>
+			<h5 class="white-text">Coordonnée</h5>
 			<ul>
-			  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-			  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-			  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-			  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#!">06 06 06 06 06 06</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#!">3 Rue de la Boustifaille cedex</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#!">Badger@gmail.com</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#!">Paris 74000</a></li>
 			</ul>
 		  </div>
 		</div>
