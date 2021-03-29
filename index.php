@@ -19,10 +19,18 @@
 
 <body>
 	<div class="container">
-		<div class="parallax-container">
-			<div class="parallax"><img src="shutterstocks.png"></div>
+		<div class="navbar">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#!" class="brand-logo">Logo</a>
+					<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					</ul>
+			</div>
+			</nav>
 		</div>
-
+		<img class="materialboxed" width="100%" height="500px" src="images/shutterstocks.png">
 		<?php
 		  if (!empty($_SESSION['id'])) { 
 		?>
@@ -32,6 +40,7 @@
 			</div>
 		</section>
 		
+
 		<?php
 
 		  if($_SESSION['admin'] == "true") { //si l'utilisateur connecté est admin on affiche les boutons (class = button) :
@@ -110,27 +119,28 @@
 		  <div class="container">
 			<div class="row">
 			  <div class="col l6 s12">
-				<h5 class="white-text">Footer Content</h5>
-				<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+				<h5 class="white-text">Contact</h5>
+				<p class="grey-text text-lighten-4">Si vous voulez nous contacter veuillez vous addresser au contact suivant</p>
 			  </div>
 			  <div class="col l4 offset-l2 s12">
-				<h5 class="white-text">Links</h5>
+				<h5 class="white-text">Coordonnée</h5>
 				<ul>
-				  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-				  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-				  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-				  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+				  <li><a class="grey-text text-lighten-3" href="#!">06 06 06 06 06 06</a></li>
+				  <li><a class="grey-text text-lighten-3" href="#!">3 Rue de la Boustifaille cedex</a></li>
+				  <li><a class="grey-text text-lighten-3" href="#!">Badger@gmail.com</a></li>
+				  <li><a class="grey-text text-lighten-3" href="#!">Paris 74000</a></li>
 				</ul>
 			  </div>
-			</div>
-		  </div>
-		  <div class="footer-copyright">
-			<div class="container">
-			© 2014 Copyright Text
-			<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
 			</div>
 		  </div>
 		</footer>
 	</div>
 </body>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.parallax');
+		var instances = M.Parallax.init(elems, options);
+	});
+</script>
 </html>
